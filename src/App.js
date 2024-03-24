@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import ImageTextBlock from './components/ImageTextBlock';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,9 +17,7 @@ function App() {
             <ImageTextBlock title="elio" description="lorem ipsum" direction="right" image={logo}/>
           </div>
 
-          <footer className='page-footer'>
-            sitemap
-          </footer>
+          <Footer/>
 
         </div>
       </div>
