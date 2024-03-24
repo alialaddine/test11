@@ -14,7 +14,7 @@ function App() {
 
           <div className='page-body'>
             <ImageTextBlock title="elio" description="lorem ipsum" direction="left" image={logo}/>
-            <ImageTextBlock title="elio" description="lorem ipsum" direction="right" image={logo}/>
+            <ImageTextBlock title="ali" description="lorem ipsum" direction="right" image={logo}/>
           </div>
 
           <Footer/>
