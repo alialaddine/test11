@@ -4,7 +4,7 @@ const ImageTextBlock = ({image, title, description, direction}) => {
   return (
     <div className={`block-${direction} page-block img-txt`}>
       <div>
-          <img src={image} alt="" />
+          <img src={image} alt="test" />
       </div>
       <div>
           <h1>{title}</h1>
